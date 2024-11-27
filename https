@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>em busca de atlandita</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p> à umas duas semanas eu estive junto as minhas melhores amigas em um restaurante maravilhoso, tinha uma ótima decoração e uma ótica comida.</p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Porém ao meio do jantar, houve uma coisa inusitada no local </p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Aparentemente ao meio do jantar houve um roubo, muito misterioso, assaltaram um item de decoração raro.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Aparentemente o ladrão saiu fugindo pelas portas do fundo, causando tumulto no trânsito da cidade.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Após isso eu e minhas amigas tentamos sair de lá o mais rápido possível.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Mais tarde já todas em minha casa, nós descobrimos que o ladrão estava sendo quase encontrado pela polícia.
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando este caso, minhas amigas ficaram um tanto quanto assustadas.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>As buscas por ele se tornaram casa vez mais intensas.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Quando finalmente a polícia prende o fugitivo a cidade continua em paz !</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Mesmo após sua prisão, eu aí da estive apreensiva.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caso ainda estaria sendo julgado .</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-ladrao-perdido.png" alt="encontrado>
+            <p>tive diversos pesadelos com esse acontecimento a longo de um tempo.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Após eu finalmente superar este trauma, agora eu ando cada vez mais em paz.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
